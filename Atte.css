@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+#logo-color i img{
+    width: 150px;
+}
+.navbar-brand{
+    margin-left: 50px;
+    color: rgba(255,166,0);
+    font-weight: bold;
+}
+#menu-color{
+    background-color: rgba(255,166,0);
+}
+.navbar-brand:hover{
+    color: rgba(255,166,0);
+}
+#navbar-color{
+    background-color:#ea8a81;
+}
+
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav-item{
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.nav-link:hover{
+    background-color: RGB(255, 255, 207);
+    box-shadow: 0 0 5px  RGB(42, 29, 0),
+                0 0 20px  RGB(42, 29, 0),
+                 0 0 60px  RGB(42, 29, 0),
+                 0 0 150px RGB(42, 29, 0);
+                 color:black;
+}
+
+
+.main-content{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://cdn.dribbble.com/users/77121/screenshots/15545151/media/a3085e89fea73c1c7b6c909c14c3ed76.gif");
+    background-size: cover;
+    background-position: 73%;
+    color: black;
+}
+
+.content{
+    padding-top: 90px;
+    margin-left: 50px;
+    
+}
+
+.content h2{
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#btn1 button{
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color: rgba(255,166,0);
+    border: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+}
+#btn1 button:hover{
+    background-color: rgba(255,166,0);
+    box-shadow: 0 0 5px rgba(255,166,0),0 0 20px rgba(255,166,0),
+                 0 0 60px rgba(255,166,0),
+                 0 0 150px rgba(255,166,0);
+                 
+}
+
+
+
+
+
+.card{
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    margin: auto;
+    
+
+}
+.best-card .card:hover{
+    transform: translateY(-15px);
+}
+.best-card h1{
+    font-weight: bold;
+    color: white;
+    text-shadow:  2px 1px 5px black;
+}
+.best-card p{
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 1px 5px black;
+}
+
+
+
+.container{
+    margin-top: 100px;
+}
+.card-content h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card-content h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card-content h5{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card-content p{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.new-card{
+    margin-top: 50px;
+    cursor: pointer;
+}
+.new-card h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#btn3{
+    text-align: center;
+}
+#btn3 button{
+    width: 150px;
+    height: 35px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(255,166,0);
+    transition: 0.50s ease-in;
+    cursor: pointer;
+
+}
+#btn3 button:hover{
+    background-color: black;
+    color: white;
+}
+#btn4{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.about-us{
+    margin-top: 50px;
+}
+
+
+#footer{
+    background-color: black;
+    padding: 5px 0;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+}
+.copyright{
+    color: white;
+}
+<!--.main{
+    
+    height: 30px;
+    width: 50px;
+    float: left;
+    margin:0 ;
+    background-size: cover;
+  }
+  .main1{
+
+    font-size: 30px;
+    margin-top: 10px;
+    font-style: bold;
+    float: left;
+
+  }
+  
+
+
+.main3{
+      display: inline-block;
+    border-color: 2px solid black;
+    color: black;
+      width: 400px;
+      height: 400px;
+  
+  }
+P{
+  display: inline-block;
+  padding-left: 20px;
+  margin-left: -80px;
+  font-size: 20px;
+  
+}
+.main5{
+  background-color: orangered;
+  width: 410px;
+  height: 500px;
+  margin-left:900px;
+  margin-top: -452px;
+}
+.main6{
+  background-color: orange;
+  width: 410px;
+  height: 250px;
+  float:top;
+}
+.main7{
+  background-color: green;
+  width: 410px;
+  height: 250px;
+  float: bottom;
+}
+.main9 table{
+      border-collapse: collapse;
+      width: 50%;   
+    }
+.main9 th,td{
+    border: 2px solid grey; 
+    padding: 7px;
+  }
+  .main10{
+    margin-top: -170px;
+    border-color: 2px solid grey;
+    margin-left: 25px;
+    height: 160px;
+    width: 140px;
+    margin-left: 50px;
+    background-image: url(http://info.aec.edu.in/AEC/StudentPhotos/20a91a0581.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

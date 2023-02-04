@@ -1,0 +1,15 @@
+h1{
+    font-size: 50px;
+}
+span{
+    font-size: 20px;
+}
+h5{
+    font-size: 30px;
+}
+.badge{
+font-size: 15px;
+}
+button[type="button"]{
+  display: none;
+}
